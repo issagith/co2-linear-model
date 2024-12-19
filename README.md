@@ -1,11 +1,12 @@
-# LinearModel Package
+# Package linearmodel
 
 ## Description
 
-Le package LinearModel est une bibliothèque Python conçue pour effectuer des analyses statistiques avancées et implémenter des modèles de régression linéaire utilisant les moindres carrés ordinaires (OLS). Il inclut des modules pour la prétraitement des données, l'analyse exploratoire des données, la visualisation et l'évaluation des modèles. Ce package a été développé dans le contexte de l'analyse des émissions de CO2 des véhicules en fonction de diverses caractéristiques. Chaque module peut être lancé indépendamment et contient une fonction main pour une utilisation rapide sur le jeu de donné. Mais, il est possible d'utiliser les fonctions de chaque module dans un script python indépendant.
+Le package linearmodel est une bibliothèque Python conçue pour effectuer des analyses statistiques avancées et implémenter des modèles de régression linéaire utilisant les moindres carrés ordinaires (OLS). Il inclut des modules pour le prétraitement des données, l'analyse exploratoire des données, la visualisation et l'évaluation des modèles. Ce package a été développé dans le contexte de l'analyse des émissions de CO2 des véhicules en fonction de diverses caractéristiques. Chaque module peut être lancé indépendamment et contient une fonction main pour une utilisation rapide sur le jeu de données. Cependant, il est possible d'utiliser les fonctions de chaque module dans un script Python indépendant. 
 
 Le fichier main est utilisé comme un notebook pour l'analyse des données et l'entraînement du modèle. Il contient des visualisations et des interprétations des résultats et sert d'exemple d'utilisation du package. Les tests unitaires sont fournis pour valider le bon fonctionnement des méthodes dans chaque module.
 
+Notez que ce package est un exemple jouet développé dans le cadre d'un projet scolaire, et n'est pas destiné à remplacer des bibliothèques de machine learning plus avancées comme scikit-learn ou statsmodels. Il vise à illustrer les concepts de base de l'analyse de données et de la régression linéaire en Python.
 
 ## Fonctionnalités
 
@@ -66,8 +67,8 @@ pip install dist/linearmodel-version.tar.gz
 Pour installer le package depuis le dépôt GitHub, vous pouvez utiliser la commande suivante :
 
 ```sh
-git clone urlDuDepot
-cd LinearModel
+git clone https://github.com/issagith/co2-linear-model.git
+cd linearmodel
 pip install .
 ```
 
